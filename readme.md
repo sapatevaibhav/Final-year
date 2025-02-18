@@ -1,14 +1,39 @@
+
+### Setting up and running
+
 clone the repo
 
+```bash
+git clone https://github.com/sapatevaibhav/Final-year
+```
+
 create python virtual environment
+```bash
+python3 -m venv env
+```
 
 launch the environment
+```bash
+env/bin/activate
+```
 
 install requirenments from txt file
+```bash
+pip install -r requirements.txt
+```
 
-`streamlit run app.py`
+run the server
+
+```streamlit run app.py```
 
 
+
+---
+---
+---
+---
+
+### Amazon EC2 Deployment
 
 
 
