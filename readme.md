@@ -1,30 +1,37 @@
 
 ### Setting up and running
 
-clone the repo
+1. clone the repo
 
 ```bash
 git clone https://github.com/sapatevaibhav/Final-year
 ```
 
-create python virtual environment
+2. Download the pretrained model and move it to base folder
+
+3. create python virtual environment
+
 ```bash
 python3 -m venv env
 ```
 
-launch the environment
+4. launch the environment
+
 ```bash
 env/bin/activate
 ```
 
-install requirenments from txt file
+5. install requirenments from txt file
+
 ```bash
 pip install -r requirements.txt
 ```
 
-run the server
+6. run the server
 
-```streamlit run app.py```
+```bash
+streamlit run app.py
+```
 
 
 
