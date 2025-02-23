@@ -18,7 +18,12 @@ python3 -m venv env
 4. launch the environment
 
 ```bash
-env/bin/activate
+source env/bin/activate
+```
+on windows
+
+```bash
+venv\Scripts\activate
 ```
 
 5. install requirenments from txt file
