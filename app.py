@@ -187,10 +187,12 @@ if uploaded_file is not None:
 else:
     st.info("ℹ️ Please upload an MRI scan using the uploader above to begin analysis.")
     st.markdown("### Example MRI Scans")
+    
     col1, col2, col3 = st.columns(3)
+
     with col1:
-        st.image("https://example.com/glioma_sample.jpg", caption="Glioma Tumor Example", use_container_width=True)
+        st.image("images/glioma_sample.jpg", caption="Glioma Tumor Example", use_container_width=True)
     with col2:
-        st.image("https://example.com/meningioma_sample.jpg", caption="Meningioma Tumor Example", use_container_width=True)
+        st.image("images/meningioma_sample.jpg", caption="Meningioma Tumor Example", use_container_width=True)
     with col3:
-        st.image("https://example.com/no_tumor_sample.jpg", caption="Healthy Brain Example", use_container_width=True)
+        st.image("images/no_tumor_sample.jpg", caption="Healthy Brain Example", use_container_width=True)
